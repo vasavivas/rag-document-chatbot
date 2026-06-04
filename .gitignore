@@ -1,0 +1,16 @@
+# API Keys - never push to GitHub!
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# ChromaDB local storage
+chroma_db/
+
+# Virtual environment
+venv/
+env/
+
+# VS Code
+.vscode/
