@@ -1,0 +1,13 @@
+RAG Document Chatbot — Streamlit UI
+====================================
+1. Copy streamlit_app.py into your existing rag-document-chatbot repo folder (same level as app.py)
+2. Copy your .env file into the same folder (with GROQ_API_KEY)
+3. Install requirements:
+   pip install -r requirements.txt
+4. Run:
+   streamlit run streamlit_app.py
+5. It opens in your browser at http://localhost:8501
+   Upload a .txt or .pdf and start chatting.
+
+To share a live link (for portfolio/Upwork), deploy free at share.streamlit.io
+using this repo — connect your GitHub repo, set GROQ_API_KEY as a secret, and deploy.
